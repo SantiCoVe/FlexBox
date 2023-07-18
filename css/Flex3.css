@@ -1,0 +1,38 @@
+/*fondo texto : #eae6e3
+color titulo: #413e3a
+color letra: #403e3d*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+  
+.texto {
+  width: 650px;
+  height: 250px;
+  background-color: #eae6e3;
+
+}
+
+h1{
+  margin: 10px 0 0 50px;
+  font-size: 35px;
+  color:#413e3a ;
+}
+
+p{
+  width: 70%;
+  font-size: 25px;
+  color: #403e3d;
+  margin: 35px 0 0 50px;
+  
+}
